@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="image/favicon.ico" type="image/x-icon">
+    <title>GlobeX</title>
+    <style>
+        /* Style pour le corps de la page */
+        body {
+            font-family: Arial, sans-serif; /* Police de caractères générale */
+            margin: 0; /* Réinitialisation de la marge par défaut du corps de la page */
+            padding: 0; /* Réinitialisation du rembourrage par défaut du corps de la page */
+            background-color: #f4f4f4; /* Couleur de fond générale */
+        }
+
+        /* Style pour la section principale de la page */
+        section {
+            max-width: 800px; /* Largeur maximale de la section */
+            margin: 20px auto; /* Marge extérieure et centrage horizontal de la section */
+            padding: 20px; /* Espace intérieur de la section */
+            background-color: #fff; /* Couleur de fond de la section */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre légère autour de la section */
+            display: grid; /* Utilisation du modèle de disposition en grille pour la section */
+            grid-template-columns: repeat(2, 1fr); /* Deux colonnes égales dans la grille */
+            grid-gap: 20px; /* Espace entre les éléments de la grille */
+        }
+
+        /* Style pour chaque produit dans la section */
+        .product {
+            border: 1px solid #ddd; /* Bordure du produit */
+            margin: 10px; /* Marge extérieure du produit */
+            padding: 10px; /* Espace intérieur du produit */
+            text-align: center; /* Alignement du texte au centre dans le produit */
+        }
+
+        /* Style pour les images de chaque produit */
+        .product img {
+            max-width: 100%; /* Assure que l'image du produit ne dépasse pas sa largeur naturelle */
+            height: auto; /* Permet à l'image de conserver ses proportions tout en ajustant sa largeur */
+        }    
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logoimage.jpg" alt="Logo VanderlayIndustries">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="Latex_sales.html">Latex sales</a></li>
+                <li><a>Jobs_opportrunity</a>
+                    <ul class="sub-categories">                        
+                        <li><a href="career.html">Career</a></li>
+                        <li><a href="applicationform.html">applicationform</a></li>
+                    </ul>
+                </li>      
+            </ul>
+        </nav>
+    </header>       
+
+    <section>
+        <div class="product">
+            <img src="images\durex.jpg" alt="Durex">
+            <h2>Natural Latex</h2>
+            <p>Price : $9.99</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="images\Flat-White.png" alt="Latex_flat">
+            <h2>Flat_white</h2>
+            <p>Price : $19,99</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="images\hand_latex.jpg" alt="hand_latex">
+            <h2>hand_latex</h2>
+            <p>Price : $9,99</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="images\Colle.jpg" alt="Carpet">
+            <h2>Latex_Carpet</h2>
+            <p>Price : $9.99</p>
+            <button>Add to Cart</button>
+        </div>
+
+    </section>
+
+
+    <footer>
+        <div class="fixed" > 
+            <div class="my-list-container">
+                <ul class="my-list">
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="aboutus.html">About us</a></li>
+                </ul>
+            </div>
+            <div class="my-ol-container">         
+                <ol class="my-ol"> 
+                    <li>ALL RIGHTS RESERVED © Vanderlay Industries.</li>  
+                </ol>
+            </div>
+    </div>
+    </footer>
+</body>
+
+</html>
