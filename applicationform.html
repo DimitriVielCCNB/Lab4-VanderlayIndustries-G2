@@ -1,1 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="image/favicon.ico" type="image/x-icon">
+    <title>Postulez Maintenant - Latex Sales Unlimited</title>
+    <style>
+        /* Réinitialisation de la marge et du rembourrage par défaut */
+        body, h1, h2, h3, p, ul, ol, li, form, label {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Style de base pour le corps du site */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        #page_title {
+            background-color: #007BFF;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Titre de la page */
+        h1 {
+            font-size: 2em;
+        }
+
+        /* Section principale */
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Formulaire d'application */
+        form {
+            display: grid;
+            grid-gap: 10px;
+        }
+
+        /* Éléments du formulaire */
+        label {
+            font-weight: bold;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        #page_contact{
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="images/logoimage.jpg" alt="Logo VanderlayIndustries">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="Latex_sales.html">Latex sales</a></li>
+                <li><a>Jobs_opportrunity</a>
+                    <ul class="sub-categories">                        
+                        <li><a href="career.html">Career</a></li>
+                        <li><a href="applicationform.html">applicationform</a></li>
+                    </ul>
+                </li>      
+            </ul>
+        </nav>
+    </header>       
+
+    <section id="page_title">
+        <h1>Postulez Maintenant</h1>
+        <p>Rejoignez Latex Sales Unlimited et faites partie de notre équipe exceptionnelle !</p>
+
+    </section>
+
+    <section>
+        <h2>Formulaire d'Application</h2>
+        <p>Remplissez le formulaire ci-dessous pour postuler à l'un de nos postes passionnants.</p>
+
+        <!-- Ajoutez ici le formulaire d'application avec les champs nécessaires -->
+        <form action="traitement_formulaire.php" method="post">
+            <!-- Champ pour le nom -->
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+
+            <!-- Ajoutez d'autres champs pour le prénom, l'adresse e-mail, le numéro de téléphone, etc. -->
+
+            <!-- Sélection du poste -->
+            <label for="poste">Poste souhaité :</label>
+            <select id="poste" name="poste" required>
+                <option value="latex_sales">Vendeur de Latex</option>
+                <option value="sales_manager">Responsable des Ventes</option>
+                <!-- Ajoutez d'autres options pour les différents postes -->
+
+            </select>
+
+            <!-- Champ pour télécharger le CV -->
+            <label for="cv">Téléchargez votre CV :</label>
+            <input type="file" id="cv" name="cv" accept=".pdf, .doc, .docx" required>
+
+            <!-- Zone de texte pour la lettre de motivation -->
+            <label for="lettre_motivation">Lettre de Motivation :</label>
+            <textarea id="lettre_motivation" name="lettre_motivation" rows="4" required></textarea>
+
+            <!-- Bouton de soumission du formulaire -->
+            <button type="submit">Envoyer ma Candidature</button>
+        </form>
+    </section>
+
+    <section id="page_contact">
+        <p>Contactez-nous pour toute question : <a href="contact.html">Contact</p>
+    </section>
+
+    <footer>
+        <div class="fixed" > 
+            <div class="my-list-container">
+                <ul class="my-list">
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="aboutus.html">About us</a></li>
+                </ul>
+            </div>
+            <div class="my-ol-container">         
+                <ol class="my-ol"> 
+                    <li>ALL RIGHTS RESERVED © Vanderlay Industries.</li>  
+                </ol>
+            </div>
+    </div>
+    </footer>
+
+</body>
+</html>
 
